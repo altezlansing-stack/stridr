@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Stridr Support</title>
+<meta name="description" content="Help and FAQ for the Stridr step app for iPhone.">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<style>
+:root{--bg:#FAF6EF;--card:#fff;--text:#1b2426;--muted:#56706F;--accent:#1D4E5A;--line:#EADFCF}
+@media (prefers-color-scheme:dark){:root{--bg:#0B1E22;--card:#12343A;--text:#EEF4F3;--muted:#9DB6B8;--accent:#6EC0BD;--line:#1F4950}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:720px;margin:0 auto;padding:32px 20px 64px}
+header{margin-bottom:24px}
+.logo{display:block;width:64px;height:64px;border-radius:14px;margin-bottom:10px}
+header .app{font-weight:700;color:var(--accent);letter-spacing:.2px;text-decoration:none}
+h1{font-size:30px;line-height:1.2;margin:8px 0 4px}
+h2{font-size:21px;line-height:1.3;margin:34px 0 8px}
+h3{font-size:17px;margin:22px 0 4px}
+p,li{color:var(--text)}
+.muted{color:var(--muted);font-size:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:18px 0}
+.card ul{margin:6px 0 0;padding-left:20px}
+ul{padding-left:22px}
+li{margin:4px 0}
+a{color:var(--accent)}
+.placeholder{background:#fff3b0;color:#5b4500;padding:1px 6px;border-radius:6px;font-weight:600}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:10px 0}
+th,td{border-bottom:1px solid var(--line);text-align:left;padding:8px 6px;vertical-align:top}
+footer{margin-top:44px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+nav a{margin-right:16px}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;margin:10px 0}
+summary{font-weight:600;cursor:pointer}
+details p,details ul{margin:10px 0 2px}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <a href="../"><img class="logo" src="../logo-512.png" alt="Stridr logo" width="64" height="64"></a>
+  <a class="app" href="../">Stridr</a>
+  <h1>Support</h1>
+  <p class="muted">Help for Stridr, the private step-debt and step-goal app for iPhone.</p>
+</header>
+
+<div class="card">
+  <strong>Contact</strong>
+  <p style="margin:6px 0 0">Email <a href="mailto:altezlansing@gmail.com">altezlansing@gmail.com</a>. Please include your iPhone model, iOS version, the Stridr version (Settings › About) and which device records your steps (iPhone, Apple Watch, Fitbit, other).</p>
+</div>
+
+<h2>Frequently asked questions</h2>
+<details><summary>What do I need to use Stridr?</summary>
+<p>An iPhone with iOS 17 or later. Steps come from Apple Health: your iPhone counts them on its own, and an Apple Watch or a Fitbit (synced into Apple Health by a sync app) adds to them without double counting.</p></details>
+<details><summary>Stridr says it can’t find any steps.</summary>
+<ul><li>Open iPhone Settings › Health › Data Access &amp; Devices › Stridr and turn on Steps.</li><li>Check that the Health app shows steps (Health › Browse › Activity › Steps).</li><li>Pull down on Stridr’s Today screen to refresh.</li></ul></details>
+<details><summary>What are Step Debt and Step Bank?</summary>
+<p>Each completed day is compared with your daily goal (or plan target). Steps short of it add to Step Debt; extra steps pay debt back at 65% (100 extra steps clear 65 steps of debt). Extra steps beyond zero debt go into the Step Bank, which covers future short days. Both fade by 15% a day and only the last 14 days count. Today isn’t counted until it’s over.</p></details>
+<details><summary>How is my step goal set?</summary>
+<p>In Settings › Step Goal choose <strong>Auto</strong> (learned from the median of your last 4 weeks; it moves only after your usual shifts by 10% or more for about 2 weeks; 7,000 with no history), <strong>My Own Goal</strong>, or <strong>Weight Loss Plan</strong> (adults 18+, after setting up a plan). Switching away from Weight Loss Plan ends the plan; your Weight Log is kept.</p></details>
+<details><summary>What does On Pace mean?</summary>
+<p>It compares your steps so far with where you’d normally be by this time of day, based on your hourly steps over the last 4 weeks, scaled to today’s target. Within 300 steps it says “Right on pace”.</p></details>
+<details><summary>How does the Weight Loss Plan work?</summary>
+<p>Pick a target weight and a pace (0.5, 1 or 1.5 lb a week). Stridr estimates calories per step from your height, weight and sex, and adds enough extra steps to your usual to match that pace (3,500 kcal per lb). Ramp-Up builds up over 2 weeks. Weekly weigh-ins re-plan the target, and after 3 weigh-ins check-ins adjust it by at most 15% a week. These are estimates only.</p></details>
+<details><summary>A day was a rest or sick day.</summary>
+<p>Turn on <em>Excuse Today</em> on the Today screen. An excused day adds no Step Debt.</p></details>
+<details><summary>Notifications don’t arrive.</summary>
+<p>Allow notifications in Stridr’s Settings and in iPhone Settings › Notifications › Stridr. They are scheduled on your iPhone and refreshed when you open Stridr.</p></details>
+<details><summary>Does Stridr upload or share my data?</summary>
+<p>No. Everything is processed on your iPhone. Stridr has no servers, accounts, analytics, ads or tracking. It reads steps from Apple Health and writes only your weigh-ins, if you allow it. See the <a href="../privacy-policy/">Privacy Policy</a>.</p></details>
+<details><summary>How do I delete my data?</summary>
+<p>Delete the Stridr app. This removes everything Stridr stored. Data in Apple Health is not affected (weigh-ins Stridr saved there can be deleted in the Health app).</p></details>
+<details><summary>Is Stridr medical advice?</summary>
+<p>No. Stridr gives estimates only and isn’t medical advice. Talk to your doctor before starting a weight-loss plan.</p></details>
+
+<footer><nav><a href="../">Home</a><a href="../privacy-policy/">Privacy Policy</a></nav><p>© 2026 Davide Rosso</p></footer>
+</main>
+</body>
+</html>
