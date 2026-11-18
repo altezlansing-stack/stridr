@@ -6,6 +6,6 @@ Public pages for **Stridr**, a private step-debt and step-goal app for iPhone by
 - Privacy Policy: https://altezlansing-stack.github.io/stridr/privacy-policy/
 - Support: https://altezlansing-stack.github.io/stridr/support/
 
-Contact: altezlansing@gmail.com
+Contact: hello@kichler.ai
 
 Served with GitHub Pages from `main` / root.
